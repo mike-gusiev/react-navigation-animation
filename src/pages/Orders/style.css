@@ -1,0 +1,41 @@
+.orders-wrapper {
+  overflow: no-content;
+  position: absolute;
+  left: 253px;
+  transform: rotate(-7deg);
+  height: 948px;
+  width: 440px;
+  border-radius: 48px;
+  background-color: #FFFFFF;
+}
+
+.orders-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 43px;
+  left: 36px;
+}
+
+.orders-title__header {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #9F9FA0;
+}
+
+.page-in {
+  animation-name: page-in;
+  animation-duration: 1s;
+  overflow: no-content;
+  position: absolute;
+  left: 0;
+  transform: rotate(0deg);
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0;
+  background-color: #FFFFFF;
+  z-index: 1000;
+}

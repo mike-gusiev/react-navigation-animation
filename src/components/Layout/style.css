@@ -1,0 +1,81 @@
+@import url(//db.onlinewebfonts.com/c/1a045963159927274c92b0444fb83c17?family=Avenir);
+
+.layout-wrapper {
+  position: relative;
+  font-family: 'Avenir Roman';
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.layout-wrapper > .page-disable {
+  animation-name: page-disable;
+  animation-duration: 0.5s;
+  border-radius: 0;
+}
+
+@keyframes page-disable {
+  0% {
+    border-radius: 48px 0 0 0;
+  }
+
+  100% {
+    border-radius: 0;
+  }
+}
+
+.page-active {
+  overflow: no-content;
+  position: absolute;
+  left: 0;
+  transform: rotate(0deg);
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0px;
+  background-color: #FFFFFF;
+  z-index: 1000;
+}
+
+.page-in {
+  animation-name: page-in;
+  animation-duration: 1s;
+}
+
+.page-out {
+  animation-name: page-out;
+  animation-duration: 1s;
+}
+
+@keyframes page-in {
+  0% {
+    left: 253px;
+    transform: rotate(-7deg);
+    border-radius: 48px 0 0 0;
+    z-index: 0;
+  }
+
+  100% {
+    left: 0;
+    transform: rotate(0deg);
+    border-radius: 0;
+    z-index: 1000;
+  }
+}
+
+@keyframes page-out {
+  0% {
+    position: absolute;
+    left: 0;
+    transform: rotate(0deg);
+    border-radius: 0;
+    z-index: 1000;
+  }
+
+  100% {
+    position: absolute;
+    left: 253px;
+    transform: rotate(-7deg);
+    border-radius: 48px;
+    z-index: 0;
+  }
+}

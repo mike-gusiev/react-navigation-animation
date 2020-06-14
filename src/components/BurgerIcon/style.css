@@ -1,0 +1,22 @@
+.burger-icon-wrapper {
+  display: inline-block;
+  width: 30px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.burger-icon-container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.burger-icon__line {
+  width: 30px;
+  height: 4px;
+  border-radius: 3.5px;
+  background-color: #E8E5E5;
+}
+
