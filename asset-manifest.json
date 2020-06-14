@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-navigation-animation/static/css/main.e034e310.chunk.css",
+    "main.js": "/react-navigation-animation/static/js/main.7b3e8bbd.chunk.js",
+    "main.js.map": "/react-navigation-animation/static/js/main.7b3e8bbd.chunk.js.map",
+    "runtime-main.js": "/react-navigation-animation/static/js/runtime-main.43b76bf9.js",
+    "runtime-main.js.map": "/react-navigation-animation/static/js/runtime-main.43b76bf9.js.map",
+    "static/js/2.ea32d43b.chunk.js": "/react-navigation-animation/static/js/2.ea32d43b.chunk.js",
+    "static/js/2.ea32d43b.chunk.js.map": "/react-navigation-animation/static/js/2.ea32d43b.chunk.js.map",
+    "index.html": "/react-navigation-animation/index.html",
+    "precache-manifest.2fb79839f9db75479bb3cdbef3b19093.js": "/react-navigation-animation/precache-manifest.2fb79839f9db75479bb3cdbef3b19093.js",
+    "service-worker.js": "/react-navigation-animation/service-worker.js",
+    "static/css/main.e034e310.chunk.css.map": "/react-navigation-animation/static/css/main.e034e310.chunk.css.map",
+    "static/js/2.ea32d43b.chunk.js.LICENSE.txt": "/react-navigation-animation/static/js/2.ea32d43b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43b76bf9.js",
+    "static/js/2.ea32d43b.chunk.js",
+    "static/css/main.e034e310.chunk.css",
+    "static/js/main.7b3e8bbd.chunk.js"
+  ]
+}
