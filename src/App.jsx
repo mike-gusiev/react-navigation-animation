@@ -16,7 +16,7 @@ const App = () => {
               <Component menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             </Route>
           ))}
-          <Redirect exact from="/" to="/start"/>
+          <Redirect exact from="/" to={routes[0].link} />
         </Switch>
       </Layout>
     </Router>
